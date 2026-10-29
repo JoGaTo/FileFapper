@@ -4,7 +4,7 @@
 
 FileFapper brings gallery downloading, site browsing and a manageable download queue together in one Windows app. Paste a link, collect a search page, or browse for your next favorite gallery without juggling a collection of separate tools.
 
-**[Download FileFapper v1.0](https://github.com/JoGaTo/FileFapper/releases)** · [User guide](docs/USER-GUIDE.md) · [Site support](docs/SITE-SUPPORT.md) · [Write a site script](docs/SITE-SCRIPTS.md)
+**[Download FileFapper](https://github.com/JoGaTo/FileFapper/releases)** · [User guide](docs/USER-GUIDE.md) · [Site support](docs/SITE-SUPPORT.md) · [Write a site script](docs/SITE-SCRIPTS.md)
 
 ## Get started
 
@@ -18,11 +18,9 @@ The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) for acco
 
 | Method | Availability |
 | --- | --- |
-| Portable EXE / ZIP / MSI | Windows x64 release builds, when attached to the releases page. |
-| pip | Not available: FileFapper's desktop app is not published as a Python package. |
-| Docker | Not available: there is no maintained FileFapper image or supported container setup. |
-| Chocolatey | Not available: there is no published FileFapper Chocolatey package. |
-| macOS / Linux | No supported release builds at present. |
+| ZIP / MSI | Windows x64 release builds, when attached to the releases page. This is the only way to download and install this (for now...). Still working on x86 version.  |
+| Android / IOS | Nothing of yet... |
+| macOS / Linux | No supported release builds at present. If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
 
 Use the Windows downloads above until these other distribution methods are built and published. Installing an unrelated package with a similar name will not install this app.
 
@@ -52,8 +50,8 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 
 ### Galleries and readers
 
-- [E-Hentai](https://e-hentai.org)
-- [ExHentai](https://exhentai.org)
+- [E-Hentai](https://e-hentai.org) _has a limitation of 4 or less workers_
+- [ExHentai](https://exhentai.org) _has a limitation of 4 or less workers_
 - [nhentai](https://nhentai.net)
 - [Hitomi.la](https://hitomi.la)
 - [HentaiFox](https://hentaifox.com)
@@ -69,21 +67,21 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 - [Simply Hentai](https://www.simply-hentai.com)
 - [My Hentai Gallery](https://myhentaigallery.com)
 - [Hentaidad](https://hentaidad.com)
-- [WNACG · 紳士漫畫](https://www.wnacg.com)
-- [JMComic · 禁漫天堂](https://18comic.vip)
+- [WNACG · 紳士漫畫](https://www.wnacg.com) _Chinese_
+- [JMComic · 禁漫天堂](https://18comic.vip) _Chinese_
 - [AnimeIDHentai](https://animeidhentai.com)
 - [Comix](https://comix.to)
 - [DoujinHentai](https://doujinhentai.net)
-- [Ikuhentai](https://ikuhentai.net)
-- [Toonkor](https://toonkor0.org)
-- [BlackToon](https://blacktoon.me)
+- [Ikuhentai](https://ikuhentai.net)  _may not work time to time_ - _Spanish_
+- [Toonkor](https://toonkor0.org) #Korean#
+- [BlackToon](https://blacktoon.me) #Korean#
 - [Cartoon18 · 色漫網](https://cartoon18.com/)
-- [177漫畫](https://177picyy.com/)
+- [177漫畫](https://177picyy.com/) #Chinese#
 - [Ho5ho](https://ho5ho.com/)
 - [大白兔漫畫](https://dabaitu-mh.cc/)
 - [HentaiDB](https://hentaidb.xyz/)
 - [Doujiva](https://doujiva.com/)
-- [火星漫畫 · Kasei](https://kasei.cc/)
+- [火星漫畫 · Kasei](https://kasei.cc/)  _may not work time to time_ - _Korean?_
 
 ### Creators and art
 
@@ -91,7 +89,7 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 - [Kemono](https://kemono.cr)
 - [Pixiv](https://www.pixiv.net)
 - [Hentai Foundry](https://www.hentai-foundry.com/)
-- [FapReactor](https://fapreactor.com/)
+- [FapReactor](https://fapreactor.com/) _Russian_
 - [Civitai](https://civitai.com/images)
 
 ### Booru and Rule34
