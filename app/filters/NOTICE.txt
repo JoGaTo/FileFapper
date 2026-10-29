@@ -1,0 +1,7 @@
+EasyList and EasyPrivacy
+Attribution: The EasyList authors (https://easylist.to/).
+Distributed here under Creative Commons Attribution-ShareAlike 3.0 Unported.
+Original filter list headers, commit identifiers and license links are retained.
+Source: https://github.com/easylist/easylist
+License choice: https://easylist.to/pages/licence.html
+No D&F changes to the bundled list contents. User custom rules and updates remain separate.

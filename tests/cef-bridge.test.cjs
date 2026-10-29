@@ -1,0 +1,6 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm');
+const {bootstrap}=require('../app/cef-runtime.cjs');
+function run(host){const posted=[],window={chrome:{}};window.top=window;const context={window,location:{protocol:'https:',hostname:host},__filefapperNativeSend:s=>posted.push(JSON.parse(s)),EventTarget,MessageEvent};context.globalThis=context;vm.runInNewContext('('+bootstrap.toString()+')()',context);return {window,posted};}
+test('CEF media facade is available only on the Pixiv hosts',()=>{for(const host of ['example.org','pixiv.net.example.org','i.pximg.net'])assert.equal(run(host).window.chrome.webview,undefined);for(const host of ['pixiv.net','www.pixiv.net'])assert(run(host).window.chrome.webview);});
+test('CEF media facade forwards requests and replies without exposing its event target',()=>{const {window,posted}=run('www.pixiv.net');window.chrome.webview.postMessage({kind:'df-pixiv-fetch',id:'a',url:'https://i.pximg.net/a.jpg'});assert.equal(posted[0].id,'a');let result;window.chrome.webview.addEventListener('message',e=>{result=e.data;});window.__filefapperCefReceive({kind:'df-pixiv-reply',id:'a'});assert.equal(result.id,'a');});

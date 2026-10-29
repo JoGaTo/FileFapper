@@ -1,0 +1,731 @@
+[
+  {
+    "id": "ehentai",
+    "name": "E-Hentai",
+    "language": "Multilingual",
+    "domains": [
+      "e-hentai.org",
+      "g.e-hentai.org"
+    ],
+    "root": "https://e-hentai.org",
+    "search": "https://e-hentai.org/?f_search={q}",
+    "path": "/g/\\d+/[a-f0-9]+",
+    "engine": "gallery-dl",
+    "original": true,
+    "cookies": true
+  },
+  {
+    "id": "exhentai",
+    "name": "ExHentai",
+    "language": "Multilingual",
+    "domains": [
+      "exhentai.org"
+    ],
+    "root": "https://exhentai.org",
+    "search": "https://exhentai.org/?f_search={q}",
+    "path": "/g/\\d+/[a-f0-9]+",
+    "engine": "gallery-dl",
+    "original": true,
+    "cookies": true
+  },
+  {
+    "id": "nhentai",
+    "name": "nhentai",
+    "language": "EN / 中文",
+    "domains": [
+      "nhentai.net"
+    ],
+    "root": "https://nhentai.net",
+    "search": "https://nhentai.net/search/?q={q}",
+    "path": "/g/\\d+",
+    "engine": "gallery-dl"
+  },
+  {
+    "id": "hitomi",
+    "name": "Hitomi.la",
+    "language": "EN / 中文",
+    "domains": [
+      "hitomi.la"
+    ],
+    "root": "https://hitomi.la",
+    "search": "https://hitomi.la/search.html?{q}",
+    "path": "/(?:galleries/\\d+|(?:doujinshi|manga|cg|gamecg|anime)/[^/]+-\\d+)\\.html",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "hentaifox",
+    "name": "HentaiFox",
+    "language": "English",
+    "domains": [
+      "hentaifox.com"
+    ],
+    "root": "https://hentaifox.com",
+    "search": "https://hentaifox.com/search/?q={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentai2read",
+    "name": "Hentai2Read",
+    "language": "English",
+    "domains": [
+      "hentai2read.com"
+    ],
+    "root": "https://hentai2read.com",
+    "search": "https://hentai2read.com/search?q={q}",
+    "path": "/(?:reader/[^/]+/\\d+(?:/page-\\d+)?|m/S\\d+/[^/]+|[^/]+/\\d+)/?",
+    "engine": "native",
+    "searchBrowser": true,
+    "cookies": true,
+    "browserCapture": true,
+    "readerSelector": "[data-reader-image],#reader-page img,[data-page] img,.reader-page img"
+  },
+  {
+    "id": "hentaihere",
+    "name": "HentaiHere",
+    "language": "English",
+    "domains": [
+      "hentaihere.com"
+    ],
+    "root": "https://hentaihere.com",
+    "search": "https://hentaihere.com/search?q={q}",
+    "path": "/(?:reader/[^/]+/\\d+(?:/page-\\d+)?|m/S\\d+/[^/]+|[^/]+/\\d+)/?",
+    "engine": "native",
+    "searchBrowser": true,
+    "cookies": true,
+    "browserCapture": true,
+    "readerSelector": "[data-reader-image],#reader-page img,[data-page] img,.reader-page img"
+  },
+  {
+    "id": "hentainexus",
+    "name": "HentaiNexus",
+    "language": "English",
+    "domains": [
+      "hentainexus.com"
+    ],
+    "root": "https://hentainexus.com",
+    "search": "https://hentainexus.com/?q={q}",
+    "path": "/view/\\d+",
+    "engine": "gallery-dl"
+  },
+  {
+    "id": "imhentai",
+    "name": "IMHentai",
+    "language": "EN / 中文",
+    "domains": [
+      "imhentai.xxx"
+    ],
+    "root": "https://imhentai.xxx",
+    "search": "https://imhentai.xxx/search/?key={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentaiera",
+    "name": "HentaiEra",
+    "language": "English",
+    "domains": [
+      "hentaiera.com"
+    ],
+    "root": "https://hentaiera.com",
+    "search": "https://hentaiera.com/search/?key={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentaienvy",
+    "name": "HentaiEnvy",
+    "language": "English",
+    "domains": [
+      "hentaienvy.com"
+    ],
+    "root": "https://hentaienvy.com",
+    "search": "https://hentaienvy.com/search/?key={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentairox",
+    "name": "HentaiRox",
+    "language": "English",
+    "domains": [
+      "hentairox.com"
+    ],
+    "root": "https://hentairox.com",
+    "search": "https://hentairox.com/search/?key={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentaizap",
+    "name": "HentaiZap",
+    "language": "English",
+    "domains": [
+      "hentaizap.com"
+    ],
+    "root": "https://hentaizap.com",
+    "search": "https://hentaizap.com/search/?key={q}",
+    "path": "/(?:gallery|view|g)/\\d+(?:/\\d+)?/?",
+    "engine": "native",
+    "cookies": true
+  },
+  {
+    "id": "hentaihand",
+    "name": "HentaiHand",
+    "language": "EN / 中文",
+    "domains": [
+      "hentaihand.com"
+    ],
+    "root": "https://hentaihand.com",
+    "search": "https://hentaihand.com/en/search?q={q}",
+    "path": "/(?:en/)?comic/[^/]+",
+    "engine": "native",
+    "searchBrowser": true,
+    "cookies": true
+  },
+  {
+    "id": "simplyhentai",
+    "name": "Simply Hentai",
+    "language": "English",
+    "domains": [
+      "simply-hentai.com"
+    ],
+    "root": "https://www.simply-hentai.com",
+    "search": "https://www.simply-hentai.com/search?query={q}",
+    "path": "/[^/]+/[^/]+",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "myhentaigallery",
+    "name": "My Hentai Gallery",
+    "language": "English",
+    "domains": [
+      "myhentaigallery.com"
+    ],
+    "root": "https://myhentaigallery.com",
+    "search": "https://myhentaigallery.com/search/{q}",
+    "path": "/(?:a|g(?:allery/(?:show|thumbnails))?)/\\d+",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "hentaidad",
+    "name": "Hentaidad",
+    "language": "English",
+    "domains": [
+      "hentaidad.com"
+    ],
+    "root": "https://hentaidad.com",
+    "search": "https://hentaidad.com/?s={q}",
+    "path": "/[A-Za-z0-9][A-Za-z0-9_-]*-\\d+/?$",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "wnacg",
+    "name": "WNACG · 紳士漫畫",
+    "language": "中文",
+    "domains": [
+      "wnacg.com",
+      "wnacg.org",
+      "wnacg.net"
+    ],
+    "root": "https://www.wnacg.com",
+    "search": "https://www.wnacg.com/search/?q={q}",
+    "path": "/photos-index-aid-\\d+\\.html",
+    "engine": "native"
+  },
+  {
+    "id": "jmcomic",
+    "name": "JMComic · 禁漫天堂",
+    "language": "中文",
+    "domains": [
+      "18comic.vip",
+      "18comic.org",
+      "jmcomic.me",
+      "jmcomic1.me",
+      "jmcomic2.me",
+      "jmcomic3.me",
+      "jmcomic1.one",
+      "jmcomic2.one"
+    ],
+    "root": "https://18comic.vip",
+    "search": "https://18comic.vip/search/photos?search_query={q}",
+    "path": "/(?:album|photo)/\\d+",
+    "engine": "native",
+    "repair": true
+  },
+  {
+    "id": "animeidhentai",
+    "name": "AnimeIDHentai",
+    "language": "English",
+    "domains": [
+      "animeidhentai.com"
+    ],
+    "root": "https://animeidhentai.com",
+    "search": "https://animeidhentai.com/?s={q}",
+    "path": "/(?:series|genre|watch|episode|episodes|video|videos|browse|trending|upcoming)/[^/?#]+(?:/[^/?#]+)?/?$",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "pawchive",
+    "name": "Pawchive",
+    "language": "Multilingual",
+    "domains": [
+      "pawchive.pw",
+      "pawchive.st"
+    ],
+    "root": "https://pawchive.pw",
+    "search": "https://pawchive.pw/artists?q={q}",
+    "path": "/[^/]+/user/[^/]+(?:/post/[^/]+)?",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "comix",
+    "name": "Comix",
+    "language": "English",
+    "domains": [
+      "comix.ws",
+      "comix.to"
+    ],
+    "root": "https://comix.to",
+    "search": "https://comix.to/browser?keyword={q}",
+    "path": "/title/[^/]+/[^/]+",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "[data-page] img, [data-page] canvas, .reader img, .reader canvas, main canvas, img[alt^=\"Page \"], img[alt^=\"page \"]"
+  },
+  {
+    "id": "kemono",
+    "name": "Kemono",
+    "language": "Multilingual",
+    "domains": [
+      "kemono.cr"
+    ],
+    "root": "https://kemono.cr",
+    "search": "https://kemono.cr/artists?q={q}",
+    "path": "/[^/]+/user/[^/]+(?:/post/[^/]+)?",
+    "engine": "gallery-dl",
+    "searchBrowser": true,
+    "upscale": true
+  },
+  {
+    "id": "pixiv",
+    "name": "Pixiv",
+    "language": "日本語 / Multilingual",
+    "domains": [
+      "pixiv.net"
+    ],
+    "root": "https://www.pixiv.net",
+    "search": "https://www.pixiv.net/en/tags/{q}/artworks",
+    "path": "/(?:[a-z]{2}/)?(?:artworks|users)/\\d+",
+    "engine": "native",
+    "searchBrowser": true,
+    "cookies": true
+  },
+  {
+    "id": "doujinhentai",
+    "name": "DoujinHentai",
+    "language": "Español",
+    "domains": [
+      "doujinhentai.net"
+    ],
+    "root": "https://doujinhentai.net",
+    "search": "https://doujinhentai.net/?s={q}",
+    "path": "/manga-hentai/[^/]+/.+",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "#vertical-pages-container img, .single-page-mode img.manga-image"
+  },
+  {
+    "id": "ikuhentai",
+    "name": "Ikuhentai",
+    "language": "Español",
+    "domains": [
+      "ikuhentai.net"
+    ],
+    "root": "https://ikuhentai.net",
+    "search": "https://ikuhentai.net/?s={q}&post_type=wp-manga",
+    "path": "/manga/[^/]+/[^/]+",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": ".reading-content img"
+  },
+  {
+    "id": "toonkor",
+    "name": "Toonkor",
+    "language": "한국어",
+    "domains": [
+      "toonkor0.org"
+    ],
+    "root": "https://toonkor0.org",
+    "search": "https://toonkor0.org",
+    "path": "/[^/?#]+",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "#toon_img img, #toon_img canvas, .toon-content img"
+  },
+  {
+    "id": "blacktoon",
+    "name": "BlackToon",
+    "language": "한국어",
+    "domains": [
+      "blacktoon.me"
+    ],
+    "root": "https://blacktoon.me",
+    "search": "https://blacktoon.me",
+    "path": "/webtoons/[^/]+\\.html",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "#toon_content_imgs img"
+  },
+  {
+    "id": "danbooru",
+    "name": "Danbooru",
+    "language": "Multilingual",
+    "domains": [
+      "danbooru.donmai.us"
+    ],
+    "root": "https://danbooru.donmai.us",
+    "search": "https://danbooru.donmai.us/posts?tags={q}",
+    "path": "/(?:posts|pools)/\\d+",
+    "engine": "native",
+    "searchBrowser": true
+  },
+  {
+    "id": "gelbooru",
+    "name": "Gelbooru",
+    "language": "Multilingual",
+    "domains": [
+      "gelbooru.com"
+    ],
+    "root": "https://gelbooru.com",
+    "search": "https://gelbooru.com/index.php?page=post&s=list&tags={q}",
+    "path": "/index\\.php",
+    "engine": "native",
+    "searchBrowser": true,
+    "queryView": true
+  },
+  {
+    "id": "rule34",
+    "name": "Rule34",
+    "language": "Multilingual",
+    "domains": [
+      "rule34.xxx"
+    ],
+    "root": "https://rule34.xxx",
+    "search": "https://rule34.xxx/index.php?page=post&s=list&tags={q}",
+    "path": "/index\\.php",
+    "engine": "native",
+    "searchBrowser": true,
+    "queryView": true
+  },
+  {
+    "id": "yandere",
+    "name": "Yande.re",
+    "language": "Multilingual",
+    "domains": [
+      "yande.re"
+    ],
+    "root": "https://yande.re",
+    "search": "https://yande.re/post?tags={q}",
+    "path": "/post/show/\\d+",
+    "engine": "native",
+    "searchBrowser": true
+  },
+  {
+    "id": "r34app",
+    "name": "R34.app",
+    "root": "https://r34.app/posts/rule34.xxx",
+    "domains": [
+      "r34.app"
+    ],
+    "path": "/(?:post|posts|index\\.php)",
+    "search": "https://r34.app/posts/rule34.xxx?tags={q}",
+    "language": "Multilingual",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "img[data-original],img[data-full-url],main img,article img,[role=\"dialog\"] img, .post img, img#image, video source, video[src], audio source, audio[src],a[download],main a[href$=\".zip\"],main a[href$=\".rar\"],main a[href$=\".7z\"],main a[href$=\".mp3\"]"
+  },
+  {
+    "id": "kurosearch",
+    "name": "Kurosearch",
+    "root": "https://kurosearch.com/",
+    "domains": [
+      "kurosearch.com"
+    ],
+    "path": "/",
+    "search": "https://kurosearch.com/",
+    "language": "Multilingual",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "img[data-original],img[data-full-url],main img,article img,[role=\"dialog\"] img, .post img, img#image, video source, video[src], audio source, audio[src],a[download],main a[href$=\".zip\"],main a[href$=\".rar\"],main a[href$=\".7z\"],main a[href$=\".mp3\"]"
+  },
+  {
+    "id": "r34react",
+    "name": "Rule34 React",
+    "root": "https://kurozenzen.github.io/r34-react/",
+    "domains": [
+      "kurozenzen.github.io"
+    ],
+    "path": "^/r34-react(?:/|$)",
+    "pathPrefix": "/r34-react/",
+    "search": "https://kurozenzen.github.io/r34-react/",
+    "language": "Multilingual",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "readerSelector": "img[data-original],img[data-full-url],main img,article img,[role=\"dialog\"] img, .post img, img#image, video source, video[src], audio source, audio[src],a[download],main a[href$=\".zip\"],main a[href$=\".rar\"],main a[href$=\".7z\"],main a[href$=\".mp3\"]"
+  },
+  {
+    "id": "hentaifoundry",
+    "name": "Hentai Foundry",
+    "language": "English",
+    "domains": [
+      "hentai-foundry.com"
+    ],
+    "root": "https://www.hentai-foundry.com/",
+    "search": "https://www.hentai-foundry.com/pictures/tagged/{q}",
+    "path": "/pictures/user/[^/]+/\\d+",
+    "engine": "gallery-dl",
+    "searchBrowser": true,
+    "cookies": true
+  },
+  {
+    "id": "tbib",
+    "name": "The Big ImageBoard",
+    "language": "Multilingual",
+    "domains": [
+      "tbib.org"
+    ],
+    "root": "https://tbib.org/",
+    "search": "https://tbib.org/index.php?page=post&s=list&tags={q}",
+    "path": "/index\\.php",
+    "engine": "native",
+    "searchBrowser": true,
+    "queryView": true
+  },
+  {
+    "id": "fapreactor",
+    "name": "FapReactor",
+    "language": "Multilingual",
+    "domains": [
+      "fapreactor.com",
+      "pornreactor.cc"
+    ],
+    "root": "https://fapreactor.com/",
+    "search": "https://fapreactor.com/search/{q}",
+    "path": "/post/\\d+",
+    "engine": "gallery-dl",
+    "searchBrowser": true
+  },
+  {
+    "id": "aibooru",
+    "name": "AIBooru",
+    "language": "Multilingual · AI art",
+    "domains": [
+      "aibooru.online",
+      "aibooru.download"
+    ],
+    "root": "https://aibooru.online/",
+    "search": "https://aibooru.online/posts?tags={q}",
+    "path": "/posts/\\d+",
+    "engine": "native",
+    "searchBrowser": true
+  },
+  {
+    "id": "civitai",
+    "name": "Civitai",
+    "language": "Multilingual · AI art",
+    "domains": [
+      "civitai.com"
+    ],
+    "root": "https://civitai.com/images",
+    "search": "https://civitai.com/search/images?query={q}",
+    "path": "/(?:images|posts)/\\d+",
+    "engine": "gallery-dl",
+    "searchBrowser": true,
+    "cookies": true
+  },
+  {
+    "id": "rule34ai",
+    "name": "Rule34 AI Art",
+    "root": "https://rule34ai.art/",
+    "domains": [
+      "rule34ai.art"
+    ],
+    "path": "/\\d+/?$",
+    "search": "https://rule34ai.art/?s={q}",
+    "language": "English",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".entry-content img, .entry-content video source, .entry-content video[src]"
+  },
+  {
+    "id": "rule34us",
+    "name": "Rule34.us",
+    "root": "https://rule34.us/",
+    "domains": [
+      "rule34.us"
+    ],
+    "path": "/index\\.php",
+    "search": "https://rule34.us/index.php?r=posts/index&q={q}",
+    "language": "English",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".content_push img[src*=\"/images/\"],.content_push video source,.content_push video[src],img#image"
+  },
+  {
+    "id": "rule34pw",
+    "name": "Rule34 Scroller",
+    "root": "https://rule34.pw/",
+    "domains": [
+      "rule34.pw"
+    ],
+    "path": "/post/\\d+",
+    "search": "https://rule34.pw/{q}",
+    "language": "English",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": "#player source,#player[src],img.op-player__media,.op-player img"
+  },
+  {
+    "id": "cartoon18",
+    "name": "Cartoon18 · 色漫網",
+    "root": "https://cartoon18.com/",
+    "domains": [
+      "cartoon18.com"
+    ],
+    "path": "/(?:v/[\\w-]+|story/\\d+/full)",
+    "search": "https://cartoon18.com/?q={q}",
+    "language": "Chinese",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".cartoon-image img",
+    "supportNote": "Open an individual /story/ID/full chapter. Series cover pages are not downloads."
+  },
+  {
+    "id": "177picyy",
+    "name": "177漫畫",
+    "root": "https://177picyy.com/",
+    "domains": [
+      "177picyy.com"
+    ],
+    "path": "/html/\\d+/\\d+/\\d+\\.html",
+    "search": "https://177picyy.com/?s={q}",
+    "language": "Chinese / Japanese",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".single-content img"
+  },
+  {
+    "id": "ho5ho",
+    "name": "Ho5ho",
+    "root": "https://ho5ho.com/",
+    "domains": [
+      "ho5ho.com"
+    ],
+    "path": "/[^/]+/[^/]+",
+    "search": "https://ho5ho.com/?s={q}",
+    "language": "Chinese",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".reading-content .page-break img,.reading-content img.wp-manga-chapter-img"
+  },
+  {
+    "id": "dabaitu",
+    "name": "大白兔漫畫",
+    "root": "https://dabaitu-mh.cc/",
+    "domains": [
+      "dabaitu-mh.cc"
+    ],
+    "path": "/",
+    "search": "https://dabaitu-mh.cc/",
+    "language": "Chinese",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": "#chapter-content img,.chapter-content img,.reading-content img",
+    "supportNote": "Reader capture fallback · HTTPS unavailable during verification. Open a chapter in Browser; direct extraction is provisional."
+  },
+  {
+    "id": "hentaidb",
+    "name": "HentaiDB",
+    "root": "https://hentaidb.xyz/",
+    "domains": [
+      "hentaidb.xyz"
+    ],
+    "path": "/(?:comics|s|watch)/",
+    "search": "https://hentaidb.xyz/?q={q}",
+    "language": "English",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".rd-stage img.rd-img,#reader img,.reader-pages img,.comic-reader img,video source,video[src]",
+    "supportNote": "Edge comic reader verified. Downloads use the complete chapter manifest; external streaming players are not supported."
+  },
+  {
+    "id": "doujiva",
+    "name": "Doujiva",
+    "root": "https://doujiva.com/",
+    "domains": [
+      "doujiva.com"
+    ],
+    "path": "/manga/",
+    "search": "https://doujiva.com/?q={q}",
+    "language": "Multilingual",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": "[data-page-number] img,.reader-pages img,main img[src*=\"cdn.doujiva.com\"]",
+    "supportNote": "Complete numbered chapter manifest; open one manga or chapter, not a series list."
+  },
+  {
+    "id": "kasei",
+    "name": "火星漫畫 · Kasei",
+    "root": "https://kasei.cc/",
+    "domains": [
+      "kasei.cc"
+    ],
+    "path": "/comic/(?:t/)?[^/]+(?:/read/\\d+)?",
+    "search": "https://kasei.cc/search",
+    "language": "Chinese",
+    "engine": "native",
+    "searchBrowser": true,
+    "browserCapture": true,
+    "cookies": true,
+    "readerSelector": ".scroll-page img,img.h-page-img",
+    "supportNote": "Loads in Edge. Numeric chapter IDs use the chapter API. Public-token addresses: open the scroll reader and use Queue rendered pages."
+  }
+]

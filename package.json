@@ -1,0 +1,68 @@
+{
+  "name": "filefapper",
+  "productName": "FileFapper",
+  "version": "1.0.0",
+  "description": "A desktop gallery library and download manager",
+  "author": "FileFapper contributors",
+  "license": "GPL-2.0-only",
+  "main": "app/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/core.test.cjs tests/browser.test.cjs tests/release150.test.cjs tests/alpha.test.cjs tests/readers.test.cjs tests/site-connection.test.cjs tests/focus.test.cjs tests/themes.test.cjs tests/access-recovery.test.cjs tests/tab-limit.test.cjs tests/edge-adblock.test.cjs tests/edge-runtime.test.cjs tests/worker-start-gate.test.cjs tests/edge-hardening.test.cjs tests/ppixiv-edge.test.cjs tests/saved-tags.test.cjs tests/filefapper.test.cjs tests/shared-folders.test.cjs tests/cef-bridge.test.cjs",
+    "test:ui": "node tests/ui.cjs",
+    "build": "electron-builder --win portable --x64",
+    "preview:css": "node tools/preview_css.cjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "electron": "44.9.0",
+    "electron-builder": "26.15.3",
+    "playwright": "1.64.1"
+  },
+  "build": {
+    "appId": "local.dandf.desktop",
+    "productName": "FileFapper",
+    "directories": {
+      "output": "../release"
+    },
+    "files": [
+      "app/**/*",
+      "assets/**/*",
+      "docs/**/*",
+      "examples/**/*",
+      "package.json",
+      "LICENSE",
+      "THIRD-PARTY-NOTICES.md"
+    ],
+    "extraResources": [
+      {
+        "from": "engine-dist/df-engine",
+        "to": "engine"
+      },
+      {
+        "from": "vendor/waifu2x",
+        "to": "upscaler"
+      },
+      {
+        "from": "browser-dist/cef-host",
+        "to": "browser"
+      }
+    ],
+    "artifactName": "FileFapper-${version}-Windows-x64.${ext}",
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "portable": {
+      "requestExecutionLevel": "user"
+    },
+    "asar": true,
+    "compression": "normal"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-electron": "2.20.1"
+  }
+}

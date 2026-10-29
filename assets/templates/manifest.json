@@ -1,0 +1,56 @@
+{
+  "approvedPreview": "v6-existing-and-v7-approved-final-three",
+  "artwork": [
+    {
+      "file": "asagi-city-night.png",
+      "sourceCollection": "DandF-manga-workspace-preview-2026-10-21-v6/artwork/asagi-city-night-v5.png",
+      "bytes": 3748338,
+      "sha256": "c8daab491e9341c3fde49cbaaebe15342c1231dd21f650e6391344542d9d048d"
+    },
+    {
+      "file": "survival-island.png",
+      "sourceCollection": "DandF-manga-workspace-preview-2026-10-21-v6/artwork/survival-island-color-v5.png",
+      "bytes": 4006660,
+      "sha256": "874cc18dec1f7df7d5f173d080ab602f0d9fe13e10c1937e242372276118e0a7"
+    },
+    {
+      "file": "worldtree-manga.png",
+      "sourceCollection": "DandF-manga-workspace-preview-2026-10-21-v6/artwork/worldtree-manga-v6.png",
+      "bytes": 3718018,
+      "sha256": "5e586ea0e580f5f8b4d4736e6242890e2983ecb9ac347bcf3bf91657ae41f9f6"
+    },
+    {
+      "file": "baseball-original-8k.png",
+      "sourceCollection": "DandF-manga-workspace-preview-2026-10-21-v6/artwork/baseball-original-8k-v6.png",
+      "bytes": 29930584,
+      "sha256": "57e83592acd7877469992a18f8bff6e744c17fc9ccb4af53739394f769eec653"
+    },
+    {
+      "file": "fantasy-witch-academy.png",
+      "theme": "fantasy_witch",
+      "sourceCollection": "DandF-app-final-templates-2026-10-22/artwork/fantasy-witch-academy.png",
+      "bytes": 3136849,
+      "width": 1839,
+      "height": 855,
+      "sha256": "ccd899809c676e97c38864c0cbd1209dd39013d205f54365d70b1a8dfd820887"
+    },
+    {
+      "file": "mother-daughter-sunset.png",
+      "theme": "mother_daughter",
+      "sourceCollection": "DandF-app-final-templates-2026-10-22/artwork/mother-daughter-sunset.png",
+      "bytes": 2936410,
+      "width": 1836,
+      "height": 857,
+      "sha256": "40fde734fa7b906cb0f806c5f2185ef890ce1bdf0b7fcade9b13617422cceae1"
+    },
+    {
+      "file": "fantasy-club.png",
+      "theme": "fantasy_club",
+      "sourceCollection": "DandF-app-final-templates-2026-10-22/artwork/fantasy-club-1836x857.png",
+      "bytes": 4787763,
+      "width": 1836,
+      "height": 857,
+      "sha256": "13dfe2eec98ee35d3f236d9e7cccbe4fc356e8ec947e71062b3a73ffe4ad2fe9"
+    }
+  ]
+}

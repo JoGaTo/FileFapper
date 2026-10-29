@@ -1,0 +1,1 @@
+playback.mp4 is the small non-explicit media/movie_5.mp4 playback test from https://github.com/web-platform-tests/wpt/blob/master/media/movie_5.mp4 . It is included only in the source/test archive, not the application runtime. See WPT-LICENSE.md for upstream licensing.
