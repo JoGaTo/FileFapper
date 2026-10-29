@@ -9,7 +9,7 @@ FileFapper brings gallery downloading, site browsing and a manageable download q
 ## Get started
 
 1. Download **FileFapper.exe** (portable), the portable **ZIP**, or **FileFapper.msi** (installer) from the [releases page](https://github.com/JoGaTo/FileFapper/releases).
-2. On Windows 10 or 11, 64-bit, run the portable app, extract the ZIP and run its `FileFapper.exe`, or install the MSI. FileFapper includes its browser and downloader; you do not need to install Python, Node.js, Chrome or Edge to use the release.
+2. On Windows 10 or 11, 32/64-bit, run the portable app, extract the ZIP and run its `FileFapper.exe`, or install the MSI. FileFapper includes its browser and downloader.
 3. Paste a supported gallery, artwork, post or chapter URL into **Download queue**, choose your settings and select **Add downloads**. To collect a listing, open it in **Browser** and choose **Queue galleries**.
 
 The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) for account access, downloads, sessions and troubleshooting.
@@ -19,10 +19,10 @@ The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) for acco
 | Method | Availability |
 | --- | --- |
 | ZIP / MSI | Windows x64 release builds, when attached to the releases page. This is the only way to download and install this (for now...). Still working on x86 version.  |
-| Android / IOS | Nothing of yet... |
+| Android / IOS | Nothing of yet...If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
 | macOS / Linux | No supported release builds at present. If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
 
-Use the Windows downloads above until these other distribution methods are built and published. Installing an unrelated package with a similar name will not install this app.
+Use the Windows downloads above until these other distribution methods are built and published. 
 
 ## Made for collecting
 
@@ -30,7 +30,7 @@ Use the Windows downloads above until these other distribution methods are built
 - **Collect more than one result.** Review supported search and category pages before adding individual galleries or posts. Some sites also support date ranges and continuation batches.
 - **Choose your files.** Select original or resampled E-Hentai / ExHentai images when your account permits. Supported Pawchive and Kemono posts can include video, audio, archives and other attachments; Pixiv ugoira retains its original frames and timing.
 - **Keep your place.** Tasks, preferences, tabs and saved searches persist locally. Export a session when you want a separate backup; cookies, passwords and keys are excluded.
-- **Make it yours.** Pick from color themes and character artwork templates, adjust background brightness and queue space, or add a reviewed Python site script.
+- **Make it yours.** Pick from color themes and character artwork templates (I'll add them if you request them, but they must be wide), adjust background brightness and queue space, or add a reviewed Python site script.
 
 Downloads are organized in a shared site-and-date folder, with the gallery ID or task identifier added to filenames to avoid collisions. See [the user guide](docs/USER-GUIDE.md) for file actions, limits and details.
 
@@ -111,7 +111,7 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 
 ## Build from source
 
-The desktop release targets Windows x64. Building requires Windows 10/11, Node.js 24+, Python 3.14+, .NET SDK 8 or later and access to the required dependencies. From PowerShell in the source directory:
+The desktop release targets Windows x64/x86. Building requires Windows 10/11, Node.js 24+, Python 3.14+, .NET SDK 8 or later and access to the required dependencies. From PowerShell in the source directory:
 
 ```powershell
 .\build.ps1
