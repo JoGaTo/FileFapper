@@ -18,8 +18,8 @@ The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) for acco
 
 | Method | Availability |
 | --- | --- |
-| ZIP / MSI | Windows x64 release builds, when attached to the releases page. This is the only way to download and install this (for now...). Still working on x86 version.  |
-| Android / IOS | Nothing of yet...If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
+| ZIP / MSI | Windows x64/x86 release builds, when attached to the releases page. This is the only way to download and install this (for now...).  |
+| Android | Nothing of yet...If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
 | macOS / Linux | No supported release builds at present. If anyone is capable of taking this and converting to a workable Mac/Linux build please contact me. |
 
 Use the Windows downloads above until these other distribution methods are built and published. 
