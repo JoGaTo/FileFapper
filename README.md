@@ -4,7 +4,7 @@
 
 FileFapper brings gallery downloading, site browsing and a manageable download queue together in one Windows app. Paste a link, collect a search page, or browse for your next favorite gallery without juggling a collection of separate tools.
 
-**[Download FileFapper](https://github.com/JoGaTo/FileFapper/releases)** · [User guide](docs/USER-GUIDE.md) · [Site support](docs/SITE-SUPPORT.md) · [Write a site script](docs/SITE-SCRIPTS.md)
+**[Download FileFapper](https://github.com/JoGaTo/FileFapper/releases)** · [User guide](docs/USER-GUIDE.md) or [Tutorial](https://github.com/JoGaTo/FileFapper/wiki/FileFapper-Guide#filefapper-v10-tutorials) · [Site support](docs/SITE-SUPPORT.md) · [Write a site script](docs/SITE-SCRIPTS.md)
 
 ## Get started
 
@@ -12,7 +12,7 @@ FileFapper brings gallery downloading, site browsing and a manageable download q
 2. On Windows 10 or 11, 32/64-bit, run the portable app, extract the ZIP and run its `FileFapper.exe`, or install the MSI. FileFapper includes its browser and downloader.
 3. Paste a supported gallery, artwork, post or chapter URL into **Download queue**, choose your settings and select **Add downloads**. To collect a listing, open it in **Browser** and choose **Queue galleries**.
 
-The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) for account access, downloads, sessions and troubleshooting.
+The Windows builds are unsigned. Follow [the guide](docs/USER-GUIDE.md) or [this tutorial w/ pictures](https://github.com/JoGaTo/FileFapper/wiki/FileFapper-Guide#filefapper-v10-tutorials) for account access, downloads, sessions and troubleshooting.
 
 ### Other installation methods
 
@@ -50,63 +50,68 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 
 ### Galleries and readers
 
-- [E-Hentai](https://e-hentai.org) _has a limitation of 4 or less workers_
-- [ExHentai](https://exhentai.org) _has a limitation of 4 or less workers_
-- [nhentai](https://nhentai.net)
-- [Hitomi.la](https://hitomi.la)
-- [HentaiFox](https://hentaifox.com)
-- [Hentai2Read](https://hentai2read.com)
-- [HentaiHere](https://hentaihere.com)
-- [HentaiNexus](https://hentainexus.com)
-- [IMHentai](https://imhentai.xxx)
-- [HentaiEra](https://hentaiera.com)
-- [HentaiEnvy](https://hentaienvy.com)
-- [HentaiRox](https://hentairox.com)
-- [HentaiZap](https://hentaizap.com)
-- [HentaiHand](https://hentaihand.com)
-- [Simply Hentai](https://www.simply-hentai.com)
-- [My Hentai Gallery](https://myhentaigallery.com)
-- [Hentaidad](https://hentaidad.com)
-- [WNACG · 紳士漫畫](https://www.wnacg.com) _Chinese_
-- [JMComic · 禁漫天堂](https://18comic.vip) _Chinese_
-- [AnimeIDHentai](https://animeidhentai.com)
-- [Comix](https://comix.to)
-- [DoujinHentai](https://doujinhentai.net)
-- [Ikuhentai](https://ikuhentai.net)  _may not work time to time_ - _Spanish_
-- [Toonkor](https://toonkor0.org) #Korean#
-- [BlackToon](https://blacktoon.me) #Korean#
-- [Cartoon18 · 色漫網](https://cartoon18.com/)
-- [177漫畫](https://177picyy.com/) #Chinese#
-- [Ho5ho](https://ho5ho.com/)
-- [大白兔漫畫](https://dabaitu-mh.cc/)
-- [HentaiDB](https://hentaidb.xyz/)
-- [Doujiva](https://doujiva.com/)
-- [火星漫畫 · Kasei](https://kasei.cc/)  _may not work time to time_ - _Korean?_
+| Site | Language | Notes | Requires Login/Credentials |
+| --- | --- | --- | --- |
+| [E-Hentai](https://e-hentai.org) | — | Limited to 4 workers or fewer for download. | Yes (by cookies) |
+| [ExHentai](https://exhentai.org) | — | Limited to 4 workers or fewer download. | Yes (by cookies) |
+| [nhentai](https://nhentai.net) | — | — | — |
+| [Hitomi.la](https://hitomi.la) | — | — | — |
+| [HentaiFox](https://hentaifox.com) | — | — | — |
+| [Hentai2Read](https://hentai2read.com) | — | — | — |
+| [HentaiHere](https://hentaihere.com) | — | — | — |
+| [HentaiNexus](https://hentainexus.com) | — | — | — |
+| [IMHentai](https://imhentai.xxx) | — | — | — |
+| [HentaiEra](https://hentaiera.com) | — | — | — |
+| [HentaiEnvy](https://hentaienvy.com) | — | — | — |
+| [HentaiRox](https://hentairox.com) | — | — | — |
+| [HentaiZap](https://hentaizap.com) | — | — | — |
+| [HentaiHand](https://hentaihand.com) | — | — | — |
+| [Simply Hentai](https://www.simply-hentai.com) | — | — | — |
+| [My Hentai Gallery](https://myhentaigallery.com) | — | — | — |
+| [Hentaidad](https://hentaidad.com) | — | — | — |
+| [WNACG · 紳士漫畫](https://www.wnacg.com) | Chinese | — | — |
+| [JMComic · 禁漫天堂](https://18comic.vip) | Chinese | — | Yes (login from browser) |
+| [AnimeIDHentai](https://animeidhentai.com) | — | — | — |
+| [Comix](https://comix.to) | — | — | — |
+| [DoujinHentai](https://doujinhentai.net) | — | — | — |
+| [Ikuhentai](https://ikuhentai.net) | Spanish | May not work consistently. |— | 
+| [Toonkor](https://toonkor0.org) | Korean | — | — |
+| [BlackToon](https://blacktoon.me) | Korean | — | — |
+| [Cartoon18 · 色漫網](https://cartoon18.com/) | Korean | — | — |
+| [177漫畫](https://177picyy.com/) | Chinese | — | — |
+| [Ho5ho](https://ho5ho.com/) | Chinese | — | — |
+| [大白兔漫畫](https://dabaitu-mh.cc/) | — | — | — |
+| [HentaiDB](https://hentaidb.xyz/) | — | — | — |
+| [Doujiva](https://doujiva.com/) | — | — | — |
+| [火星漫畫 · Kasei](https://kasei.cc/) | Unconfirmed | May not work consistently. | — |
 
 ### Creators and art
 
-- [Pawchive](https://pawchive.pw)
-- [Kemono](https://kemono.cr)
-- [Pixiv](https://www.pixiv.net)
-- [Hentai Foundry](https://www.hentai-foundry.com/)
-- [FapReactor](https://fapreactor.com/) _Russian_
-- [Civitai](https://civitai.com/images)
+| Site | Language | Notes | Requires Login/Credentials |
+| --- | --- | --- |--- |
+| [Pawchive](https://pawchive.pw) | — | — | — |
+| [Kemono](https://kemono.cr) | — | Yes, I know this site's like DEAD, but I wanna try this custom-AI Waifu2x thing | — |
+| [Pixiv](https://www.pixiv.net) | — | — | Yes (login from browser) | — |
+| [Hentai Foundry](https://www.hentai-foundry.com/) | — | — | — |
+| [FapReactor](https://fapreactor.com/) | Russian | — | — |
+| [Civitai](https://civitai.com/images) | — | — | Yes? | — |
 
 ### Booru and Rule34
 
-- [Danbooru](https://danbooru.donmai.us)
-- [Gelbooru](https://gelbooru.com)
-- [Rule34](https://rule34.xxx)
-- [Yande.re](https://yande.re)
-- [R34.app](https://r34.app/posts/rule34.xxx)
-- [Kurosearch](https://kurosearch.com/)
-- [Rule34 React](https://kurozenzen.github.io/r34-react/)
-- [The Big ImageBoard](https://tbib.org/)
-- [AIBooru](https://aibooru.online/)
-- [Rule34 AI Art](https://rule34ai.art/)
-- [Rule34.us](https://rule34.us/)
-- [Rule34 Scroller](https://rule34.pw/)
-
+| Site | Language | Notes |
+| --- | --- | --- |
+| [Danbooru](https://danbooru.donmai.us) | — | — |
+| [Gelbooru](https://gelbooru.com) | — | — |
+| [Rule34](https://rule34.xxx) | — | — |
+| [Yande.re](https://yande.re) | — | — |
+| [R34.app](https://r34.app/posts/rule34.xxx) | — | — |
+| [Kurosearch](https://kurosearch.com/) | — | — |
+| [Rule34 React](https://kurozenzen.github.io/r34-react/) | — | — |
+| [The Big ImageBoard](https://tbib.org/) | — | — |
+| [AIBooru](https://aibooru.online/) | — | — |
+| [Rule34 AI Art](https://rule34ai.art/) | — | — |
+| [Rule34.us](https://rule34.us/) | — | — |
+| [Rule34 Scroller](https://rule34.pw/) | — | — |
 <!-- SITE-CATALOG-END -->
 
 ## Build from source
