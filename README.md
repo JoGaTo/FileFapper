@@ -80,10 +80,10 @@ The 50 profiles below are included in the app. A profile identifies a supported 
 | [Cartoon18 · 色漫網](https://cartoon18.com/) | Korean | — | — |
 | [177漫畫](https://177picyy.com/) | Chinese | — | — |
 | [Ho5ho](https://ho5ho.com/) | Chinese | — | — |
-| [大白兔漫畫](https://dabaitu-mh.cc/) | — | — | — |
+| [大白兔漫畫](https://dabaitu-mh.cc/) | Chinese | — | — |
 | [HentaiDB](https://hentaidb.xyz/) | — | — | — |
 | [Doujiva](https://doujiva.com/) | — | — | — |
-| [火星漫畫 · Kasei](https://kasei.cc/) | Unconfirmed | May not work consistently. | — |
+| [火星漫畫 · Kasei](https://kasei.cc/) | Chi/Kor? | May not work consistently. | — |
 
 ### Creators and art
 
