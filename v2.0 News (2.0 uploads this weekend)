@@ -1,0 +1,19 @@
+Fixes
+- More improvement in start-up speed
+- Better improvement and less freeze-ups/semi crashes when mass downloading across consecutive waves
+- R34-React infinite scroll fix (still working on this)
+- Number of workers downgraded to max. 10
+- Opening a link/image to a new tab now opens to the right of the active tab
+- | New queue downloads	| Folder and filename layout |
+  | --- | --- |
+  | E-Hentai, ExHentai, and similar gallery sites |	Site\Gallery title\original-filename.ext |
+| Rule34 and booru sites |	Site\Search tags\Posting date\01 - original-filename.ext, with a short identifier to prevent filename collisions. If search tags are unavailable, FileFapper uses the post’s tags when available. |
+| Comix, JMComic, and other chapter readers	| Site\Chapter title\0001.ext, numbered in reading order. JMComic also filters repeated chapter links and page URLs during download. |
+| Pixiv, Kemono, and Pawchive	| By default, Site\Author - ID\Posting date\Post title\files. Choose the flat option in Preferences → Creator download layout to save files directly in the author folder with dates in their filenames. |
+
+Additions
+- Simultaneous galleries is now max. 25
+- (Pixiv, Kemono and Pawchive tasks) You can choose to download files directly inside the author's folder, or have the author's folder with sub-folders
+- Reload all tabs (just don't use this when you have a lot of tabs, it will cause an error)
+- (Rule34 and booru sites) Skip duplicate images, replace with highres or larger copies, or keep all images
+- Compare image download duplicates from one site that you're downloading, or all current sites
