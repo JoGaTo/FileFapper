@@ -4,7 +4,8 @@ Fixes
 - R34-React infinite scroll fix (still working on this)
 - Number of workers downgraded to max. 10
 - Opening a link/image to a new tab now opens to the right of the active tab
-- | New queue downloads	| Folder and filename layout |
+- 
+| New queue downloads	| Folder and filename layout |
   | --- | --- |
   | E-Hentai, ExHentai, and similar gallery sites |	Site\Gallery title\original-filename.ext |
 | Rule34 and booru sites |	Site\Search tags\Posting date\01 - original-filename.ext, with a short identifier to prevent filename collisions. If search tags are unavailable, FileFapper uses the post’s tags when available. |
